@@ -19,4 +19,4 @@ jobs:
   dummy-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "heeey"
+      - run: echo heeey
