@@ -17,4 +17,4 @@ jobs:
       - run: bats -v
 
   dummy-job:
-    - run: echo heeey
+    - run: echo "heeey"
