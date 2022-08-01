@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - develop
 
 jobs:
   check-bats-version:
@@ -14,3 +15,6 @@ jobs:
           node-version: "14"
       - run: npm install -g bats
       - run: bats -v
+
+  dummy-job:
+    - run: echo heeey
