@@ -17,5 +17,6 @@ jobs:
       - run: bats -v
 
   dummy-job:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "heeey"
